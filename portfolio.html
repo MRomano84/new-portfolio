@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Link for Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <!--Link for CSS-->
+  <link rel="stylesheet" href="./gallery.css">
+
+
+  <title>M.Romano-Portfolio</title>
+
+</head>
+
+
+<body>
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+    <div class="container-fluid row">
+
+      <div class="col-6">
+        <a class="navbar-brand" href="#">Matt Romano - Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse col-6" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Info</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="container-fluid pics row g-4">
+    <!-- ROW 1 -->
+    <div class="row">
+      <div class="empty col s12"></div>
+      <!-- PASSWORD GENERATOR -->
+      <div class="card transparent col s12 text">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./images/passGen2.JPG" alt="Password Generator">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator">Password Generator<i class="material-icons grey-text right more_vert">More
+              Information</i></span>
+          <p><a href="https://mromano84.github.io/password-generator/">Try out the Password Generator!</a></p>
+          <p><a href="https://github.com/MRomano84/password-generator">See the code!</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Password Generator<i
+              class="material-icons right">close</i></span>
+          <p>Using Vanilla JavaScript, this simple app lets you control input parameters to generate a uniqe
+            and random password.</p>
+          <p>Use the slider to select the length of password you would like. Then, make sure at least 1
+            checkbox of the 4 character
+            types are selected.</p>
+          <p>Finally, click the 'GENERATE' button to generate a random password based on the parameters you
+            selected.</p>
+        </div>
+      </div>
+      <div class="empty col s12"></div>
+    </div>
+    <!-- ROW 2 -->
+    <div class="row">
+      <div class="empty col s12"></div>
+      <!-- TRUFFLE SHUFFLE -->
+      <div class="card transparent col s12">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./images/truffShuff.JPG">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator">TRUFFLE SHUFFLE<i class="material-icons right grey-text more_vert">More
+              Information</i></span>
+          <p><a href="https://laura-bullek.github.io/Truffle-Shuffle/">Click here to try TRUFFLE SHUFFLE!</a>
+          </p>
+          <p><a href="https://github.com/Laura-Bullek/Truffle-Shuffle">See the code!</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">TRUFFLE SHUFFLE<i
+              class="material-icons right">close</i></span>
+          <p>Truffle Shuffle is an app that was created to help a user select a movie and a cocktail with the
+            use of a random wheel.
+          <p>It was GROUP 1's submission for project #1 of the UNH Coding Bootcamp. The group was comprised
+            of 4 members.</p>
+          <ul>
+            <li>Matthew Romano</li>
+            <li>Laura Bullek</li>
+            <li>Edward Huang</li>
+            <li>Brian Jenkins</li>
+          </ul>
+        </div>
+      </div>
+      <div class="empty col s12"></div>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="row">
+      <div class="empty col s12"></div>
+      <!-- Art Stack -->
+      <div class="card transparent col s12">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./images/demo1.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator">Art Stack<i class="material-icons grey-text right more_vert">More
+              Information</i></span>
+          <p><a href="https://art-stack-0.herokuapp.com/">Try out the Art Stack!</a></p>
+          <p><a href="https://github.com/TheTiiiim/art-stack">See the code!</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Art Stack<i class="material-icons right">close</i></span>
+          <p>Art Stack is an online art gallery where artists can make a page and upload their artwork to show up in the
+            gallery. Users
+            can navigate to the gallery and, if they like a piece of artwork, can visit the artist's page where they can
+            connect with the artist.
+          </p>
+        </div>
+      </div>
+      <div class="empty col s12"></div>
+    </div>
+
+  </div>
+
+  <!--Javascript plugins-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</body>
+
+
+</html>
