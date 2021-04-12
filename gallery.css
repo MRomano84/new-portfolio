@@ -19,3 +19,8 @@ div.card {
     background-color: #011a27;
     color: navy;
 }
+
+span.app {
+    color: antiquewhite;
+    text-decoration: underline;
+}
